@@ -66,7 +66,9 @@ SNMP Settings:
 
 The General page displays factory information of the device including the Serial Number, MAC Address, and Software Version.
 
-Via the **Factory Info Tables** page button, you can view tables with additional device information such as System Names, Release Dates, Control Platform Versions, and more.
+Via the **Factory Information Tables** page button, you can view tables with additional device information such as System Names, Release Dates, Control Platform Versions, and more.
+
+The **DC Information Tables** and **PFC Information Tables** page buttons present the user tables containing SMR sofrware versions and release dates. 
 
 ### System Data
 
@@ -80,6 +82,12 @@ The AC (Alternative Current) and DC (Direct Current) pages contain data specific
 
 The Environment Data page displays the environment temperature.
 
+### Battery Information 
+
+This page contains information about the status of the battery including KPI's like capacity, voltage, temperature, and current. 
+
 ### Alarms
 
-On the Alarms page, you can adjust the severity of the alarms that are triggered if KPIs exceed certain thresholds.
+In the Alarms page the user is presented with more information about the currect active alarms including their start times, level, ID and, status. 
+
+By clicking on the **Alarm Settings** page button under the Alarms table the user is presented with the Alarm Settings page, here you can adjust the severity of the alarms that are triggered if KPIs exceed certain thresholds.
